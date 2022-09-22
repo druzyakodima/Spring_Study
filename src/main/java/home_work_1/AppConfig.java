@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
     @Bean(name = "doctor")
-    public Doctor doctor(){
+    public Doctor doctor() {
         return new Therapist();
     }
 
